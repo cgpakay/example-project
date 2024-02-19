@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.container {
+display: flex;
+}
+
+nav ul {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+nav ul li {
+    display: inline;
+    padding: 30px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: blue;
+    transition: all 0.5s;
+
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #000000;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 1rem;
+    float: left;
+    width: 25%;
+  }
+
+
